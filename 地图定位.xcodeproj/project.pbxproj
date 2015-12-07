@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E35ADAE71C09CDE800F83AF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E35ADAE61C09CDE800F83AF2 /* main.m */; };
+		E35ADAEA1C09CDE800F83AF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E35ADAE91C09CDE800F83AF2 /* AppDelegate.m */; };
+		E35ADAED1C09CDE800F83AF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35ADAEC1C09CDE800F83AF2 /* ViewController.m */; };
+		E35ADAF01C09CDE800F83AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35ADAEE1C09CDE800F83AF2 /* Main.storyboard */; };
+		E35ADAF21C09CDE800F83AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35ADAF11C09CDE800F83AF2 /* Assets.xcassets */; };
+		E35ADAF51C09CDE800F83AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35ADAF31C09CDE800F83AF2 /* LaunchScreen.storyboard */; };
+		E35ADB001C09CDE900F83AF2 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35ADAFF1C09CDE900F83AF2 /* ____Tests.m */; };
+		E35ADB0B1C09CDE900F83AF2 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35ADB0A1C09CDE900F83AF2 /* ____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E35ADAFC1C09CDE900F83AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35ADADA1C09CDE800F83AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35ADAE11C09CDE800F83AF2;
+			remoteInfo = "地图定位";
+		};
+		E35ADB071C09CDE900F83AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35ADADA1C09CDE800F83AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35ADAE11C09CDE800F83AF2;
+			remoteInfo = "地图定位";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E35ADAE21C09CDE800F83AF2 /* 地图定位.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "地图定位.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35ADAE61C09CDE800F83AF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E35ADAE81C09CDE800F83AF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E35ADAE91C09CDE800F83AF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E35ADAEB1C09CDE800F83AF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E35ADAEC1C09CDE800F83AF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E35ADAEF1C09CDE800F83AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E35ADAF11C09CDE800F83AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E35ADAF41C09CDE800F83AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E35ADAF61C09CDE800F83AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35ADAFB1C09CDE900F83AF2 /* 地图定位Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "地图定位Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35ADAFF1C09CDE900F83AF2 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		E35ADB011C09CDE900F83AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35ADB061C09CDE900F83AF2 /* 地图定位UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "地图定位UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35ADB0A1C09CDE900F83AF2 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		E35ADB0C1C09CDE900F83AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E35ADADF1C09CDE800F83AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35ADAF81C09CDE900F83AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35ADB031C09CDE900F83AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E35ADAD91C09CDE800F83AF2 = {
+			isa = PBXGroup;
+			children = (
+				E35ADAE41C09CDE800F83AF2 /* 地图定位 */,
+				E35ADAFE1C09CDE900F83AF2 /* 地图定位Tests */,
+				E35ADB091C09CDE900F83AF2 /* 地图定位UITests */,
+				E35ADAE31C09CDE800F83AF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E35ADAE31C09CDE800F83AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E35ADAE21C09CDE800F83AF2 /* 地图定位.app */,
+				E35ADAFB1C09CDE900F83AF2 /* 地图定位Tests.xctest */,
+				E35ADB061C09CDE900F83AF2 /* 地图定位UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E35ADAE41C09CDE800F83AF2 /* 地图定位 */ = {
+			isa = PBXGroup;
+			children = (
+				E35ADAE81C09CDE800F83AF2 /* AppDelegate.h */,
+				E35ADAE91C09CDE800F83AF2 /* AppDelegate.m */,
+				E35ADAEB1C09CDE800F83AF2 /* ViewController.h */,
+				E35ADAEC1C09CDE800F83AF2 /* ViewController.m */,
+				E35ADAEE1C09CDE800F83AF2 /* Main.storyboard */,
+				E35ADAF11C09CDE800F83AF2 /* Assets.xcassets */,
+				E35ADAF31C09CDE800F83AF2 /* LaunchScreen.storyboard */,
+				E35ADAF61C09CDE800F83AF2 /* Info.plist */,
+				E35ADAE51C09CDE800F83AF2 /* Supporting Files */,
+			);
+			path = "地图定位";
+			sourceTree = "<group>";
+		};
+		E35ADAE51C09CDE800F83AF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E35ADAE61C09CDE800F83AF2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E35ADAFE1C09CDE900F83AF2 /* 地图定位Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E35ADAFF1C09CDE900F83AF2 /* ____Tests.m */,
+				E35ADB011C09CDE900F83AF2 /* Info.plist */,
+			);
+			path = "地图定位Tests";
+			sourceTree = "<group>";
+		};
+		E35ADB091C09CDE900F83AF2 /* 地图定位UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E35ADB0A1C09CDE900F83AF2 /* ____UITests.m */,
+				E35ADB0C1C09CDE900F83AF2 /* Info.plist */,
+			);
+			path = "地图定位UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E35ADAE11C09CDE800F83AF2 /* 地图定位 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35ADB0F1C09CDE900F83AF2 /* Build configuration list for PBXNativeTarget "地图定位" */;
+			buildPhases = (
+				E35ADADE1C09CDE800F83AF2 /* Sources */,
+				E35ADADF1C09CDE800F83AF2 /* Frameworks */,
+				E35ADAE01C09CDE800F83AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "地图定位";
+			productName = "地图定位";
+			productReference = E35ADAE21C09CDE800F83AF2 /* 地图定位.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E35ADAFA1C09CDE900F83AF2 /* 地图定位Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35ADB121C09CDE900F83AF2 /* Build configuration list for PBXNativeTarget "地图定位Tests" */;
+			buildPhases = (
+				E35ADAF71C09CDE900F83AF2 /* Sources */,
+				E35ADAF81C09CDE900F83AF2 /* Frameworks */,
+				E35ADAF91C09CDE900F83AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35ADAFD1C09CDE900F83AF2 /* PBXTargetDependency */,
+			);
+			name = "地图定位Tests";
+			productName = "地图定位Tests";
+			productReference = E35ADAFB1C09CDE900F83AF2 /* 地图定位Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E35ADB051C09CDE900F83AF2 /* 地图定位UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35ADB151C09CDE900F83AF2 /* Build configuration list for PBXNativeTarget "地图定位UITests" */;
+			buildPhases = (
+				E35ADB021C09CDE900F83AF2 /* Sources */,
+				E35ADB031C09CDE900F83AF2 /* Frameworks */,
+				E35ADB041C09CDE900F83AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35ADB081C09CDE900F83AF2 /* PBXTargetDependency */,
+			);
+			name = "地图定位UITests";
+			productName = "地图定位UITests";
+			productReference = E35ADB061C09CDE900F83AF2 /* 地图定位UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E35ADADA1C09CDE800F83AF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "陈高健";
+				TargetAttributes = {
+					E35ADAE11C09CDE800F83AF2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3359E7N58S;
+					};
+					E35ADAFA1C09CDE900F83AF2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3359E7N58S;
+						TestTargetID = E35ADAE11C09CDE800F83AF2;
+					};
+					E35ADB051C09CDE900F83AF2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3359E7N58S;
+						TestTargetID = E35ADAE11C09CDE800F83AF2;
+					};
+				};
+			};
+			buildConfigurationList = E35ADADD1C09CDE800F83AF2 /* Build configuration list for PBXProject "地图定位" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E35ADAD91C09CDE800F83AF2;
+			productRefGroup = E35ADAE31C09CDE800F83AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E35ADAE11C09CDE800F83AF2 /* 地图定位 */,
+				E35ADAFA1C09CDE900F83AF2 /* 地图定位Tests */,
+				E35ADB051C09CDE900F83AF2 /* 地图定位UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E35ADAE01C09CDE800F83AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35ADAF51C09CDE800F83AF2 /* LaunchScreen.storyboard in Resources */,
+				E35ADAF21C09CDE800F83AF2 /* Assets.xcassets in Resources */,
+				E35ADAF01C09CDE800F83AF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35ADAF91C09CDE900F83AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35ADB041C09CDE900F83AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E35ADADE1C09CDE800F83AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35ADAED1C09CDE800F83AF2 /* ViewController.m in Sources */,
+				E35ADAEA1C09CDE800F83AF2 /* AppDelegate.m in Sources */,
+				E35ADAE71C09CDE800F83AF2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35ADAF71C09CDE900F83AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35ADB001C09CDE900F83AF2 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35ADB021C09CDE900F83AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35ADB0B1C09CDE900F83AF2 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E35ADAFD1C09CDE900F83AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35ADAE11C09CDE800F83AF2 /* 地图定位 */;
+			targetProxy = E35ADAFC1C09CDE900F83AF2 /* PBXContainerItemProxy */;
+		};
+		E35ADB081C09CDE900F83AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35ADAE11C09CDE800F83AF2 /* 地图定位 */;
+			targetProxy = E35ADB071C09CDE900F83AF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E35ADAEE1C09CDE800F83AF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35ADAEF1C09CDE800F83AF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E35ADAF31C09CDE800F83AF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35ADAF41C09CDE800F83AF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E35ADB0D1C09CDE900F83AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E35ADB0E1C09CDE900F83AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E35ADB101C09CDE900F83AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "地图定位/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chengaojian.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E35ADB111C09CDE900F83AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "地图定位/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chengaojian.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E35ADB131C09CDE900F83AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "地图定位Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chengaojian.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/地图定位.app/地图定位";
+			};
+			name = Debug;
+		};
+		E35ADB141C09CDE900F83AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "地图定位Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chengaojian.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/地图定位.app/地图定位";
+			};
+			name = Release;
+		};
+		E35ADB161C09CDE900F83AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "地图定位UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chengaojian.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "地图定位";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E35ADB171C09CDE900F83AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "地图定位UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chengaojian.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "地图定位";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E35ADADD1C09CDE800F83AF2 /* Build configuration list for PBXProject "地图定位" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35ADB0D1C09CDE900F83AF2 /* Debug */,
+				E35ADB0E1C09CDE900F83AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35ADB0F1C09CDE900F83AF2 /* Build configuration list for PBXNativeTarget "地图定位" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35ADB101C09CDE900F83AF2 /* Debug */,
+				E35ADB111C09CDE900F83AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E35ADB121C09CDE900F83AF2 /* Build configuration list for PBXNativeTarget "地图定位Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35ADB131C09CDE900F83AF2 /* Debug */,
+				E35ADB141C09CDE900F83AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E35ADB151C09CDE900F83AF2 /* Build configuration list for PBXNativeTarget "地图定位UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35ADB161C09CDE900F83AF2 /* Debug */,
+				E35ADB171C09CDE900F83AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E35ADADA1C09CDE800F83AF2 /* Project object */;
+}
